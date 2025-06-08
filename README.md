@@ -1,5 +1,6 @@
-# Welcome to my portfolio - WIP
+# nytou's portfolio.
 
+**still wip**
 ## I'm José-Daniel Capitaine
 I'm a Game programmer & Tech Artist.
 
@@ -16,8 +17,8 @@ I became interested in **Tech Art** during my time as a student, mainly creating
 My experience during school, and through different game jams made me aware of how a game production works, I often have to communicate with other programmers, 2D & 3D artists as well as Game Designers and Level Designers.
 ## More about me
 Here are a few links if you want to know more about me :
-- [[Resume.pdf]]
-- [[Showcases]] of what I can do
+- [My Resume/CV](Resume.pdf)
+- [Showcases](showcases/Showcases.md) of what I can do
 - [My itch.io page](https://nytouu.itch.io/)
 
 Feel free to contact me :
