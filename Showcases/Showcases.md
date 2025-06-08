@@ -6,7 +6,7 @@ Here are a few examples of what I can do, this page will be separated into 2 sec
 - 3D Player Controller
 
 ## Tech Art
-- [Intradiegetic menu](Showcases/TechArt/IntradiegeticMenu.md)
+- [Intradiegetic menu](TechArt/IntradiegeticMenu.md)
 - Procedural Skybox
 - Stylized Water
 - Waving leaves
