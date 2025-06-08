@@ -18,7 +18,7 @@ My experience during school, and through different game jams made me aware of ho
 ## More about me
 Here are a few links if you want to know more about me :
 - [My Resume/CV](Resume.pdf)
-- [Showcases](showcases/Showcases.md) of what I can do
+- [Showcases](Showcases/Showcases.md) of what I can do
 - [My itch.io page](https://nytouu.itch.io/)
 
 Feel free to contact me :
