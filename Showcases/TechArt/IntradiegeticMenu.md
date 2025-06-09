@@ -6,11 +6,11 @@ We kept that idea as it was original and it also made so that the first person v
 
 The first step for creating the menu was sketching that idea, I did a few sketches on GIMP to show the menu in its different stages and how it should animate.
 
-![PauseMenuSketch.gif](Showcases/TechArt/Images/PauseMenuSketch.gif)
+![PauseMenuSketch.gif](https://raw.githubusercontent.com/nytouu/nytouu.github.io/refs/heads/master/Showcases/TechArt/Images/PauseMenuSketch.gif)
 
 After confirming what would end up in the final menu, I started actually creating the VFX in Unity using the VFX Graph. The goal was to create first the visual aspect of the VFX and then make it interactible in game.
 
-![MenuPreview.mp4](Showcases/TechArt/Images/MenuPreview.mp4)
+![MenuPreview.mp4](https://github.com/nytouu/nytouu.github.io/raw/refs/heads/master/Showcases/TechArt/Images/MenuPreview.mp4)
 
 The menu animation has different stages :
 - First, the physics are stopped and the world fades to grayscale
@@ -34,6 +34,6 @@ Then we spawn a small, darker cloud underneath the text, that way the text can c
 ## Making the buttons interactive
 
 This was very simple, I gave each button a Box Collider (since the buttons are World Space) and the hit detection is done with a Raycast. Whenever the ray hits the button, we lerp text color to the selected color.
-![WorldButtonInspector.png](Showcases/TechArt/Images/WorldButtonInspector.png)
+![WorldButtonInspector.png](https://github.com/nytouu/nytouu.github.io/blob/master/Showcases/TechArt/Images/WorldButtonInspector.png?raw=true)
 
 Then to make everything work, I made a prefab that spawns the 3 buttons whenever you hit Escape.
