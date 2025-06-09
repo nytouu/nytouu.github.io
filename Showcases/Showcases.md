@@ -1,5 +1,4 @@
-Here are a few examples of what I can do, this page will be separated into 2 sections, one for Tech / Programming, another one for Tech Art.
-
+Here are a few examples of what I can do, in case you are interested, I try to explain how I did the things I did.
 ## Tech / Programming
 - Procedural Generation
 - 2D Player Controller

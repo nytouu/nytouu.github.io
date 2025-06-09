@@ -4,6 +4,8 @@ For the in-game pause menu in DERAYAH, our first idea was a minimal 2D pause men
 
 We kept that idea as it was original and it also made so that the first person view would not be interrupted, which was nice since that is also the case for the puzzles.
 
+## Conception
+
 The first step for creating the menu was sketching that idea, I did a few sketches on GIMP to show the menu in its different stages and how it should animate.
 
 ![PauseMenuSketch.gif](https://raw.githubusercontent.com/nytouu/nytouu.github.io/refs/heads/master/Showcases/TechArt/Images/PauseMenuSketch.gif)
@@ -18,16 +20,18 @@ The menu animation has different stages :
 - These particles agglomerate to form text representing the buttons
 - A small cloud of sand appear underneath the text
 
-## Visual aspect
+## Visual aspect of the effect
 
 I created this effect using Unity's VFX Graph, the graph is separated into 3 systems :
 - The sand particles spawning
 - The sand particles forming the text
 - The cloud particles underneath the text
 
-For the first part of this effect, I actually follow this [tutorial](https://www.youtube.com/watch?v=ZytOQ4NSciU) which demonstrates how to make a similar effect where particles agglomerate towards a predefined shape (in this case a Signed Distance Field - or SDF for short). In this case, Unity provides a convenient tool to convert a 3D mesh into a .asset file containing the SDF, we use that to create 3 SDFs with ou text shapes (Resume, Options and Quit).
+For the first part of this effect, I mostly follow this [tutorial](https://www.youtube.com/watch?v=ZytOQ4NSciU) which demonstrates how to make a similar effect where particles agglomerate towards a predefined shape (in this case a Signed Distance Field - or SDF for short). In this case, Unity provides a convenient tool to convert a 3D mesh into a .asset file containing the SDF, we use that to create 3 SDFs with ou text shapes (Resume, Options and Quit).
 
-When we spawn our particles, we give them upward force as well as turbulence for a more organic movement. We add an additional force towards the SDF so that the particles agglomerate to form the shape of the text. These particles will then fade out and another system wiil appear, forming the text. The reason why I chose to fade out the first system is because some particles would not properly get attracted to the SDF. This way we can get a more consistent look on the text, making it more readable.
+When we spawn our particles, we give them upward force as well as turbulence for a more organic movement. We add an additional force towards the SDF so that the particles agglomerate to form the shape of the text.
+
+These particles will then fade out and another system wiil appear, forming the text. The reason why I chose to fade out the first system is because some particles would not properly get attracted to the SDF. This way we can get a more consistent look on the text, making it more readable.
 
 Then we spawn a small, darker cloud underneath the text, that way the text can contrast more with a small background.
 
