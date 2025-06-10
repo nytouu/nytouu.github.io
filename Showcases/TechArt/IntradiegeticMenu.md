@@ -12,7 +12,8 @@ The first step for creating the menu was sketching that idea, I did a few sketch
 
 After confirming what would end up in the final menu, I started actually creating the VFX in Unity using the VFX Graph. The goal was to create first the visual aspect of the VFX and then make it interactible in game.
 
-https://github.com/user-attachments/assets/a04cc680-3525-45a0-ac0c-6428b5f348f6
+<video src="https://github.com/user-attachments/assets/a04cc680-3525-45a0-ac0c-6428b5f348f6" controls="controls" style="max-width: 730px;">
+</video>
 
 The menu animation has different stages :
 - First, the physics are stopped and the world fades to grayscale
